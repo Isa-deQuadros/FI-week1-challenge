@@ -5,8 +5,11 @@ document.body.style.backgroundImage= "url('https://wallpaperaccess.com/full/1871
 const newH1 = document.createElement("h1")
     newH1.textContent = "The Cutest Dogs"
 
+
 const Jcards = document.createElement('div')
     Jcards.id = "DogsInfo"
+    // Jcards.addEventListener("click", () =>
+    // )
 
 const animals = {
     dogs:[
