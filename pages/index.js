@@ -8,8 +8,7 @@ const newH1 = document.createElement("h1")
 
 const Jcards = document.createElement('div')
     Jcards.id = "DogsInfo"
-    // Jcards.addEventListener("click", () =>
-    // )
+    Jcards.addEventListener("click", function(){ alert ("Look at these cuties!");});
 
 const animals = {
     dogs:[
@@ -53,5 +52,7 @@ function renderDogs(data) {
 }
 
 
+
 document.body.append(newH1, Jcards);
+
 
