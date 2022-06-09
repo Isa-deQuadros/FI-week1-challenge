@@ -4,6 +4,12 @@ document.body.style.backgroundImage= "url('https://wallpaperaccess.com/full/1871
 
 const newH1 = document.createElement("h1")
     newH1.textContent = "The Cutest Dogs"
+    newH1.addEventListener("mouseenter", function(e){
+        e.target.style.color="white";
+        setTimeout(function(){
+            e.target.style.color="";
+        }, 900);
+    })
 
 
 const Jcards = document.createElement('div')
