@@ -1,6 +1,7 @@
 
 h1 {
     background-color: rgb(145, 145, 236);
+    opacity: 0.6;
     border: 8px rgb(108, 4, 244) solid;
     color:rgb(60, 4, 63);
     font-family: Arial;
